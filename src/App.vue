@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Studio Ghibli API</h1>
-    <div class="main-container">
+    <div class="container">
       <film-list-select :films="films" />
       <film-details :film="selectedFilm" />
     </div>
@@ -37,6 +37,12 @@ export default {
 </script>
 
 <style>
+
+h1 {
+  font-family: fantasy;
+  color: #C8A2C8;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,7 +52,8 @@ export default {
   margin-top: 60px;
 }
 
-.main-container {
-  display: flex;
+.container {
+  display: inline-block;
+  width: 60%;
 }
 </style>

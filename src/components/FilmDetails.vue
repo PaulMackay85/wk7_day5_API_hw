@@ -16,4 +16,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+h2 {
+  color: #71EEB8;
+}
+
 </style>
