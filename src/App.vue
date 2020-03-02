@@ -14,10 +14,11 @@ import FilmDetails from "./components/FilmDetails.vue";
 import {eventBus} from "./main.js";
 
 export default {
+  name: "App",
   data() {
     return {
       films: [],
-      selectedFilm: {}
+      selectedFilm: null
     }
   },
   mounted() {

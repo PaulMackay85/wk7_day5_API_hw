@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div v-if="film">
     <h2>{{film.title}}</h2>
     <p>Director: {{film.director}}</p>
     <p>Release Year: {{film.release_date}}</p>
